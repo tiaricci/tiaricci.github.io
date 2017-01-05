@@ -42,4 +42,8 @@ La bandera -A agrega todos los archivos del respositorio.
 -- nombres de archivos o carpetas
 -- wildcards*
 
+## $ git checkout
+- Este comando nos permite movernos entre commits o incluso ramas de nuestro repositorio.
+-- Lleva como argumento el id del commit o parte de.
+
 
