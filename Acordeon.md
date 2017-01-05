@@ -48,6 +48,7 @@ La bandera -A agrega todos los archivos del respositorio.
 === Para regresar a mi estado original o mi rama original
 === git checkout master (Regreso a mi rama principal)
 === git checkout "numero de la rama a la que quiero regresar"
+=== git checkout -b inicio (Con esto creo una nueva rama llamada inicio y me cambia a esta nueva rama automaticamente)
 
 ## $ git revert
 - Este comando nos revierte un cambio ya registrado, creando un nuevo commit.
@@ -64,6 +65,17 @@ La bandera -A agrega todos los archivos del respositorio.
 ## $ git branch
 - Lista las ramas existentes en el respositorio.
 -- Si se le agrega [<nombre>] de rama como argumento, se creara una rama con ese nombre.
+
+## $ git merge
+- Este comando fusiona dos ramas, fusiona una rama objetivo con la rama donde nos encontramos actualmente.
+-- Recibe como parametro la rama objetivo.
+
+## $ git diff
+- Este comando me muestra las diferencias del ultimo archivo y del que estas modificando actualmente, debe de ser antes de usar add, ya que despues se aceptan los cambios y no se ve que haya diferencia.
+
+
+
+
 
 
 
