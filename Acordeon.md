@@ -45,5 +45,22 @@ La bandera -A agrega todos los archivos del respositorio.
 ## $ git checkout
 - Este comando nos permite movernos entre commits o incluso ramas de nuestro repositorio.
 -- Lleva como argumento el id del commit o parte de.
+=== Para regresar a mi estado original o mi rama original
+=== git checkout master (Regreso a mi rama principal)
+=== git checkout "numero de la rama a la que quiero regresar"
+
+## $ git revert
+- Este comando nos revierte un cambio ya registrado, creando un nuevo commit.
+-- Lleva como argumento el id del commit a revertir.
+
+## $ git reset
+- Regresa al ultimo estado guardado, borrando permanentemente cualquier cambio en el area de pruebas.
+-- Lleva la bandera --hard
+
+## git clean
+- Borra permanentemente los archivos no seguidos
+-- Lleva la bandera -f (force)
+
+
 
 
