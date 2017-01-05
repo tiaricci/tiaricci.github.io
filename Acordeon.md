@@ -30,5 +30,7 @@ La bandera -A agrega todos los archivos del respositorio.
 -- git commit -m "first commit"
 
 ## git log
-- Este comando 
+- Este comando nos muestra el historial de commits que hemos hecho en nuestro proyecto.
+-- La bandera --oneline muestra cada entrada en una sola linea.
+-- Tambien es posible ver la historia de un solo archivo, pasando como argumento el nombre de este.
 
