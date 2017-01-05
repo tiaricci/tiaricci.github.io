@@ -1,4 +1,7 @@
 *El numero de #Gatitos es para dar enfasis a los titulos o marcas
+*Si tenemos problemas con /bin/sh usar el siguiente comando
+chsh -s /bin/bash
+----------------------------------------------------------------------
 
 # Acordeon GIT
 
