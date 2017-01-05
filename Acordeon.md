@@ -57,9 +57,25 @@ La bandera -A agrega todos los archivos del respositorio.
 - Regresa al ultimo estado guardado, borrando permanentemente cualquier cambio en el area de pruebas.
 -- Lleva la bandera --hard
 
-## git clean
+## $ git clean
 - Borra permanentemente los archivos no seguidos
 -- Lleva la bandera -f (force)
+
+## $ git branch
+- Lista las ramas existentes en el respositorio.
+-- Si se le agrega [<nombre>] de rama como argumento, se creara una rama con ese nombre.
+
+## $ git merge
+- Este comando fusiona dos ramas, fusiona una rama objetivo con la rama donde nos encontramos actualmente.
+-- Recibe como parametro la rama objetivo.
+
+
+
+
+
+
+
+
 
 
 
