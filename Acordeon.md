@@ -24,4 +24,6 @@
 - Este comando empieza a seguir a uno o mas archivos y los agrega al area de preparacion, generando un nuevo estado de nuestro proyecto.
 La bandera -A agrega todos los archivos al repositorio.
 
-
+## $ git commit
+- Este comando registra nuestro nuevo estado y lo registra en la historia de nuestro repositorio.
+- Por lo general este comando se usa con la bandera -m y un pequenio texto que describa lo que hicimos.
