@@ -32,8 +32,14 @@ La bandera -A agrega todos los archivos del respositorio.
 - Por lo general este comando se usa con la bandera -m y un pequenio texto que describa lo que hicimos.
 -- git commit -m "first commit"
 
-## git log
+## $ git log
 - Este comando nos muestra el historial de commits que hemos hecho en nuestro proyecto.
 -- La bandera --oneline muestra cada entrada en una sola linea.
 -- Tambien es posible ver la historia de un solo archivo, pasando como argumento el nombre de este.
+
+## .gitignore
+- Este archivo nos permite ignorar archivos o directorios los cuales no queramos que entren en el seguimiento de nuestro repositorio.
+-- nombres de archivos o carpetas
+-- wildcards*
+
 
