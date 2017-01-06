@@ -73,6 +73,8 @@ La bandera -A agrega todos los archivos del respositorio.
 ## $ git diff
 - Este comando me muestra las diferencias del ultimo archivo y del que estas modificando actualmente, debe de ser antes de usar add, ya que despues se aceptan los cambios y no se ve que haya diferencia.
 
+## Conflictos en el merging
+- Hay que tener cuidado, a veces dos ramas pueden tener conflictos entre ellas y es necesario corregirlo.
 
 
 
