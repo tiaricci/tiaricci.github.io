@@ -76,6 +76,44 @@ La bandera -A agrega todos los archivos del respositorio.
 ## Conflictos en el merging
 - Hay que tener cuidado, a veces dos ramas pueden tener conflictos entre ellas y es necesario corregirlo.
 
+--- TAREA: Hacer dos branch y hacer dos cambios y luego un merge con proyecto.
+
+## $ git remote
+- Este comando nos permite hacer diversas operaciones sobre repositorios remotos.
+-- add: agrega un nuevo remoto
+-- remove: elimina un remoto
+$ git remote add <nombre> <url>
+$ git remote remove <nombre>
+
+## $ git pull
+- Este comando nos permite recibir el ultimo estado registrado del repositorio remoto.
+-- Recibe como argumentos el nombre del remoto y del branch al que queremos hacer pull.
+
+## $ git push
+- Este comando nos permite mandar los cambios registrados de nuestro repositorio local a un repositorio remoto.
+-- Recibe como argumentos el nombre del remoto y del branch al que queremos hacer push.
+
+*** Una buena practica es hacer el pull antes del push, para sicronizar cambios con el servidor ***
+
+## $ git clone
+- Este comando nos permite clonar un repositorio desde la web
+-- Recibe como argumentos la url que queremos clonar
+$ git clone https://github.com/annkymFI/annkymFI.github.io.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
