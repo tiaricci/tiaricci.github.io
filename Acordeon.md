@@ -100,7 +100,17 @@ $ git remote remove <nombre>
 -- Recibe como argumentos la url que queremos clonar
 $ git clone https://github.com/annkymFI/annkymFI.github.io.git
 
+## Fork
+- Github ofrece una opcion, la cual nos permite copiar el repositorio de algun otro usuario y hacerlo nuestro.
 
+## Pull Request
+- Este metodo permite a los equipos de desarrollo control que cambios se realizan en un repositorio.
+- El propietario del repositorio recibe peticiones de cambio, las cuales deben ser aprobadas por el.
+- Tipicamente un colaborador hace fork del proyecto maestro, y al realizar sus cambios realiza el pull request.
+- Tambien es posible hacer pull request entre ramas.
+
+## Issues
+- Github ofrece la capacidad de crear entradas en nuestro repositorio, las cuales pueden ser usadas para especificar varias cosas, desde mejoras al sistema, problemas a resolver o nuevas ideas que implementar.
 
 
 
